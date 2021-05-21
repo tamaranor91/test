@@ -1,0 +1,21 @@
+artifact_path: model
+flavors:
+  python_function:
+    data: sparkml
+    env: conda.yaml
+    loader_module: mlflow.spark
+    python_version: 3.8.5
+  spark:
+    model_data: sparkml
+    pyspark_version: 3.1.0.dev0
+run_id: e41768a9aa984c839b6146248309c7cb
+signature:
+  inputs: '[{"name": "step", "type": "integer"}, {"name": "type", "type": "string"},
+    {"name": "amount", "type": "double"}, {"name": "nameOrig", "type": "string"},
+    {"name": "oldbalanceOrg", "type": "double"}, {"name": "newbalanceOrig", "type":
+    "double"}, {"name": "nameDest", "type": "string"}, {"name": "oldbalanceDest",
+    "type": "double"}, {"name": "newbalanceDest", "type": "double"}, {"name": "orgDiff",
+    "type": "double"}, {"name": "destDiff", "type": "double"}, {"name": "label", "type":
+    "integer"}]'
+  outputs: null
+utc_time_created: '2021-05-12 16:11:07.117701'
